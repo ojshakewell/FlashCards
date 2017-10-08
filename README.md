@@ -38,7 +38,6 @@ See below for examples as to how your constructor should behave.
 ## Instructions
 
 * Create a new GitHub repository, named `Flashcard-Generator` or something similar. Clone this to your local drive.
-
 * Create a new file named `BasicCard.js`:
 
   * This file should define a Node module that exports a constructor for creating basic flashcards, e.g.:
@@ -52,14 +51,14 @@ See below for examples as to how your constructor should behave.
 
 * Create a new file named `ClozeCard.js`:
 
-  * This file should define a Node module that exports a constructor for creating cloze-deletion flashcards, e.g.:
+   * This file should define a Node module that exports a constructor for creating cloze-deletion flashcards, e.g.:
     `module.exports = ClozeCard;`
 
-  * The constructor should accept two arguments: `text` and `cloze`.
+  * The constructor should accept two arguments: `text` and `cloze`. -->
 
   * The constructed object should have a `cloze` property that contains _only_ the cloze-deleted portion of the text.
 
-  * The constructed object should have a `partial` property that contains _only_ the partial text.
+  * The constructed object should have a `partial` property that contains _only_ the partial text. -->
 
   * The constructed object should have a `fullText` property that contains _only_ the full text.
 
@@ -82,6 +81,9 @@ console.log(firstPresident.front);
 
 // "George Washington"
 console.log(firstPresident.back); 
+
+
+
 
 var firstPresidentCloze = new ClozeCard(
     "George Washington was the first president of the United States.", "George Washington");

@@ -1,0 +1,26 @@
+{
+  "name": "flashcards",
+  "version": "1.0.0",
+  "description": "backend for flashcard game",
+  "main": "ClozeCard.js",
+  "dependencies": {
+    "inquirer": "^3.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node ClozeCard.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ojshakewell/FlashCards.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Brian Russell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ojshakewell/FlashCards/issues"
+  },
+  "homepage": "https://github.com/ojshakewell/FlashCards#readme"
+}
